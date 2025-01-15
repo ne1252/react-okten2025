@@ -1,9 +1,12 @@
+import React from 'react';
+import UsersComponent from "./Component/usersComponent/UsersComponent.tsx";
 
-import './App.css'
-
-function App()
-
- return()
-}
+const App = () => {
+ return (
+     <div>
+      <UsersComponent/>
+     </div>
+ );
+};
 
 export default App
