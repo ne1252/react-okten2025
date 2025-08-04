@@ -1,13 +1,13 @@
 import React, {FC} from 'react';
-import {Itodo} from "../../models/IUser.ts";
+import {IUser} from "../../models/IUser.ts";
 type UserPropType = {
-    item: Itodo
+    item: IUser
 }
 
 
     const UserComponent:FC<UserPropType> = ({item}) => {
     return (
-        <div>{item.todo}</div>
+        <div>{item.firstName + item.lastName}</div>
     );
 };
 
